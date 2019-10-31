@@ -4,7 +4,7 @@
 #
 Name     : perl-Sereal-Decoder
 Version  : 4.007
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.007.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.007.tar.gz
 Summary  : 'Fast, compact, powerful binary deserialization'
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-Sereal-Decoder-perl = %{version}-%{release}
 BuildRequires : buildreq-cpan
+BuildRequires : perl(Sereal::Encoder)
 BuildRequires : perl(Sub::Uplevel)
 BuildRequires : perl(Test::Deep)
 BuildRequires : perl(Test::Differences)
