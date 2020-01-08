@@ -4,7 +4,7 @@
 #
 Name     : perl-Sereal-Decoder
 Version  : 4.007
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.007.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-4.007.tar.gz
 Summary  : 'Fast, compact, powerful binary deserialization'
@@ -88,7 +88,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Sereal/Decoder.pm
-/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Sereal/Decoder/Constants.pm
-/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Sereal/Performance.pm
-/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Sereal/Decoder/Decoder.so
+/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Sereal/Decoder.pm
+/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Sereal/Decoder/Constants.pm
+/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Sereal/Performance.pm
+/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Sereal/Decoder/Decoder.so
