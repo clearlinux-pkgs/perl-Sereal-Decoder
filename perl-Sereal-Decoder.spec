@@ -5,7 +5,7 @@
 #
 Name     : perl-Sereal-Decoder
 Version  : 5.004
-Release  : 33
+Release  : 34
 URL      : https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-5.004.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/Y/YV/YVES/Sereal-Decoder-5.004.tar.gz
 Summary  : 'Fast, compact, powerful binary deserialization'
